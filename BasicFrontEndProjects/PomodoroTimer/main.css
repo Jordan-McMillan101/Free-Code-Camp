@@ -1,0 +1,18 @@
+body {
+  font-family: Helvetica, Arial, Tahoma;
+  font-size: 180%;
+  line-height: 2;
+  background-color: #FF7456;
+}
+
+.buttons {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.buttons2 {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
