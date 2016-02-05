@@ -7,6 +7,10 @@ The idea of a Pomodoro timer is to set the timer to say, 25 minutes, and tell yo
 Personally, I love using this method to lead myself through a very productive day. I'm a visual person, so being able to look at and keep track of the amount of time that I've spent being productive makes me feel good about my accomplishments. :)
 
 
+## [Click here to check out the live app on Codepen.io](http://codepen.io/Jordan-McMillan101/pen/gPjpvr)
+
+
+
 ## How to Use:
 1. Set the length of both the study session and then the break session
 2. Click the start button when ready to start the timer
