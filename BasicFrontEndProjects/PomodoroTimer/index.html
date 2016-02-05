@@ -1,30 +1,65 @@
-<div>
+<div class="container">
 
-  <h1 class="text-center">Pomodoro Timer</h1>
+  <h1 class="header text-center">Pomodoro Timer</h1>
 
-  <div class="container">
-    <div class="row text-center">
-      <div class="col-sm-6">
-        Study:
-        <button id="subtract1" type="button" class="buttons">-</button>
-        <p1 id="timer1">10</p1>
-        <button id="add1" class="buttons">+</button>
-      </div>
-      <div class="col-sm-6">
-        Break:
-        <button id="subtract2" class="buttons">-</button>
-        <p1 id="timer2">5</p1>
-        <button id="add2" class="buttons">+</button>
-      </div>
+
+  <div class="container row text-center">
+    <div class="col-sm-3">
+     
+    </div>
+    <div class="col-sm-3">
+      Study:
+      <button id="subtract1" type="button" class="buttons">-</button>
+      <p1 id="timer1">10</p1>
+      <button id="add1" class="buttons">+</button>
+    </div>
+     <div class="col-sm-3">
+      Break:
+      <button id="subtract2" class="buttons">-</button>
+      <p1 id="timer2">5</p1>
+      <button id="add2" class="buttons">+</button>
+    </div>
+     <div class="col-sm-3">
     </div>
   </div>
 
-  <div>
-    <h1 class="text-center">Remaining Time: </h1>
-    <h1 class="text-center"><span id="minutes">(minutes)</span>:<span id="seconds">(seconds)</span></h1>
 
-    <button class="buttons2" type="button" id="startBtn">start</button>
-    <button class="buttons2" type="button" id="stopBtn">stop</button>
-    <button class="buttons2" type="button" id="resetBtn">Reset</button>
+  <div class="jumbotron">
+    <h2 class="text-center">Remaining Time: </h2>
+    <h2 class="text-center"><span id="minutes">(minutes)</span>:<span id="seconds">(seconds)</span></h2>
+  </div>
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm-4">
+        <button class="buttons2" type="button" id="startBtn">Start</button>
+      </div>
+      <div class="col-sm-4">
+        <button class="buttons2" type="button" id="stopBtn">Stop</button>
+      </div>
+      <div class="col-sm-4">
+        <button class="buttons2" type="button" id="resetBtn">Restart</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer text-center container">
+      <p1>Like what you see? Feel free to contact me:</p1>
+  
+    <div class="row text-center">
+      <div class="col-md-3">
+        <button class="btn"><a href="http://www.freecodecamp.com/jordan-mcmillan101" target="_blank">Free Code Camp</a></button>
+      </div>
+      <div class="col-md-3">
+        <button class="btn"><a href="https://www.linkedin.com/in/jordanmcmillan101" target="_blank">LinkedIn</a></button>
+      </div>
+      <div class="col-md-3">
+        <button class="btn"><a href="https://github.com/Jordan-McMillan101" target="_blank">GitHub</a></button>
+      </div>
+      <div class="col-md-3">
+        <button class="btn"><a href="http://codepen.io/Jordan-McMillan101/" target="_blank">CodePen</a></button>
+      </div>
+    </div>
   </div>
 </div>
