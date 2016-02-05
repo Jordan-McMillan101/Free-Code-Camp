@@ -1,0 +1,51 @@
+body {
+  font-family: Helvetica, Arial, Tahoma;
+  font-size: 180%;
+  line-height: 2;
+  color: #414141;
+  background-color: #414141;
+}
+
+.main-box {
+  background-color: #009688;
+  padding: 0px 40px 40px 40px;
+  margin: 20px 100px 0px 100px;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 20px;
+  border-color: #004D40;
+}
+
+.lowerBox {
+  text-align: left;
+  background-color: #009688;
+  padding: 0px 40px 40px 40px;
+  margin: 20px 100px 0px 100px;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 20px;
+  border-color: #004D40;
+}
+
+.button {
+  text-align: center;
+  color: #009688;
+  background:transparent;
+}
+
+.button button:hover {
+  background: #004D40;
+  color: #009688;
+}
+
+.people {
+  text-align: right;
+  font-style: italic;
+}
+
+.twitter-share-button {
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: #004D40;
+}
