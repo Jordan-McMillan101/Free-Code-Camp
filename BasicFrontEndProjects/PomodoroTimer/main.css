@@ -5,14 +5,51 @@ body {
   background-color: #FF7456;
 }
 
+.header {
+  margin-bottom: 50px;
+  font-size: 300%;
+}
+
+.footer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 150px;
+  color: #000000;
+}
+
+.btn:link {
+  color: #ffffff;
+}
+
 .buttons {
-  background: none;
-  border: none;
-  box-shadow: none;
+  align: center;
+  width: 50px;
+  margin-bottom: 20px;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 0px;
+  color: #ffffff;
 }
 
 .buttons2 {
-  background: none;
-  border: none;
-  box-shadow: none;
+  margin-top: 20px;
+  width: 150px;
+  height: 45px;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 0px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: 400;
+  transition: none;
+}
+
+.buttons2 button:hover {
+  background: #0d0d0d;
+  color: $teal;
 }
