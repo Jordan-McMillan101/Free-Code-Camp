@@ -1,0 +1,51 @@
+body {
+  background-color: #E5E8E8;
+  color: #454545;
+}
+header {
+  text-align: center;
+  border-bottom: solid 1px;
+  font-size: 180%;
+  padding-bottom: 20px;
+}
+
+.jumbotron {
+  margin: 0 auto;
+  border: solid 1px;
+  font-size: 150%;
+}
+
+ul {
+  padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+li {
+  text-align: center;
+  list-style-type: none;
+  padding-top: 5px;
+  padding-bottom: 5x;
+}
+footer {
+  border-top: solid 1px;
+  text-align: center;
+  padding-top: 20px;
+}
+test {
+  outline: none;
+}
+button {
+  background-color: white;
+  color: #353536;
+}
+
+button:hover {
+  background-color: #D8DBDB;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.footer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
