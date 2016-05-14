@@ -22,10 +22,9 @@ function rot13(str) {
   }
   return newStr;
 }
-
 //test cases
-console.log(rot13("SERR PBQR PNZC"));
-console.log(rot13("SERR CVMMN!"));
-console.log(rot13("GUR DHVPX OEBJA QBT WHZCRQ BIRE GUR YNML SBK."));
+console.log(rot13("SERR PBQR PNZC")); //"FREE CODE CAMP"
+console.log(rot13("SERR CVMMN!"));// "FREE PIZZA!"
+console.log(rot13("GUR DHVPX OEBJA QBT WHZCRQ BIRE GUR YNML SBK.")); //"THE QUICK BROWN DOG JUMPED OVER THE LAZY FOX."
 
 
